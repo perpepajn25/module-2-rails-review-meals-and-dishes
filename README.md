@@ -1,13 +1,16 @@
-# Build out regular CRUD and form_for Meal
+# Rails CRUD and Association Group Review
 
-  # Team One - Build the new/create controller methods with validation for name presence and uniqueness.  Build out form_for for new
+## Tasks
+### Build out regular CRUD and form_for Meal
 
-  # Team Two - Build the edit/update controller methods with validation for name presence and uniqueness.  Build out form_for for edit
+  * Team One - Build the new/create controller methods with validation for name presence and uniqueness.  Build out form_for for new
 
-# Push up work - As a group, refactor this to have one form for both new and edit.  Copy created code to Dish, changing class references.
+  * Team Two - Build the edit/update controller methods with validation for name presence and uniqueness.  Build out form_for for edit
 
-  # Build out one form_for Meal form that will allow you to assign a existing dish to a Meal.  
+### Push up work - As a group, refactor this to have one form for both new and edit.  Copy created code to Dish, changing class references.
 
-  # Build out Meal show page to display all dishes in the meal
+  * Build out one form_for Meal form that will allow you to assign a existing dish to a Meal.  
 
-  # Build out method for controlling Dish type to limit it to ('main', 'vegetarian', 'side', 'dessert')
+  * Build out Meal show page to display all dishes in the meal
+
+  * Build out method for controlling Dish type to limit it to ('main', 'vegetarian', 'side', 'dessert')
