@@ -1,0 +1,4 @@
+
+<% @dishes.each do |dish| %>
+  <div style="margin: 1em"><img src="/assets/<%=["pie","side_dish","turkey","ham","green_beans","brussels"].sample%>.png" alt="brussels"><br><%= dish.name %></div>
+<% end %>
