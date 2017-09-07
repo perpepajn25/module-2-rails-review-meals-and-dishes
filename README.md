@@ -1,16 +1,10 @@
-# Rails CRUD and Association Group Review
+# Rails Oauth Challenge
 
-## Tasks
-### Build out regular CRUD and form_for Meal
+Use the [OmniAuth Readme](https://github.com/learn-co-curriculum/omniauth_readme) to implement OmniAuth in the Thanksgiving App.
 
-  * Team One - Build the new/create controller methods with validation for name presence and uniqueness.  Build out form_for for new
+## Guidelines
+  - create a user table with (minimally) columns for Facebook user id and email.
+  - Have a user login via Facebook and create a session with the user's id.
+  - Create logout functionality
 
-  * Team Two - Build the edit/update controller methods with validation for name presence and uniqueness.  Build out form_for for edit
-
-### Push up work - As a group, refactor this to have one form for both new and edit.  Copy created code to Dish, changing class references.
-
-  * Build out one form_for Meal form that will allow you to assign a existing dish to a Meal.  
-
-  * Build out Meal show page to display all dishes in the meal
-
-  * Build out method for controlling Dish type to limit it to ('main', 'vegetarian', 'side', 'dessert')
+It's up to you to decide how exactly you want to build these features. Add any migrations, models, controllers, and views you need.  
